@@ -1,6 +1,6 @@
 # MLHospital
 
-MLHospital is a repo to evaluate inference attacks and the coreesponding defenses against machine learning models.
+MLHospital is a repo to evaluate inference attacks and the coresponding defenses against machine learning models.
 
 Currently we support membership inference attacks and attribute inference attacks.
 
