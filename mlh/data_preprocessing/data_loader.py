@@ -65,7 +65,7 @@ class GetDataLoader(object):
                                        download=True)
             dataset = train_dataset + test_dataset
 
-        elif dataset in configs.SUPPORTED_IMAGE_DATASETS:
+        elif dataset in configs.SUPPORTED_IMAGE_DATASETS_ATTRIBUTE_INFERENCE:
             from mlh.data_preprocessing.attribute_data_parser import CelebA
             _loader = CelebA
             train_dataset = _loader(root=self.data_path,
